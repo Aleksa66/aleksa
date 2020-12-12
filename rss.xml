@@ -1,17 +1,17 @@
 <rss version="2.0">
 	<channel>
 		<title>Real System-vesti</title>
-		<link>                  </link>
+		<link>https://aleksa66.github.io/aleksa/index.html</link>
 		<description>Real System-Jer želite da se zaštitite!</description>
 		<item>
-			<title>Da li ste spremni da skinete aplikaciju?</title>
-			<link> </link>
-			<description>Upravo je izašla najnovija verzija aplikacije,nemojte da propustite!</description>
+			<title>Naš tim</title>
+			<link>https://aleksa66.github.io/aleksa/nastim.html</link>
+			<description>Ovo su ljudi koji stoje iza uspeha Real Systema.</description>
 		</item>
 		<item>
-			<title>Naš tim</title>
-			<link> </link>
-			<description>Ovo su ljudi koji stoje iza uspeha Real Systema.</description>
+			<title>O Autoru</title>
+			<link>https://aleksa66.github.io/aleksa/oautoru.html</link>
+			<description>Ukoliko vas zanima kreator sajta to možete pogledati sada</description>
 		</item>
 	</channel>
 </rss>
