@@ -129,7 +129,7 @@ mark{
 .okvir{
 	background-color:rgba(218, 232, 216,0.6);
 	width:60%;
-	top:540px;
+	top:60px;
 }
 .block01{
 	padding:60px;
@@ -180,47 +180,47 @@ mark{
 	height:200px;
 	background-color:#e6e4dc;
 	margin-top:70px;
-}
-.container-01{
-	padding-bottom:40px;
-	width:20%;
-	left:480px;
-	top:5px;
+	margin-bottom:60px;
 }
 span{
 	font-size:35px;
 }
-.container-01 i{
-	text-align:center;
-	margin-left:10px;
-	margin-right:10px;
-	color:#989e98;
-}
-.container-01 h5{
-	text-align:center;
-	padding-top:20px;
-	padding-bottom:20px;
-}
 .font-size{
 	font-size:20px;
-}
-.container-01 h6{
-	margin-left:35px;
-	padding-bottom:10px;
-	font-size:18px;
-}
-.container-01 p{
-	color:#000;
 }
 .margin-left-25{
 	margin-left:25px;
 }
-.container-01 ul{
-	padding-left:40px;
-	list-style-type: none;
-	margin-bottom:10px;
+#wrap{
+	width:1000px;
+	display:flex;
+	margin:0px auto;
+	position:relative;
+	left:30px;
 }
-.container-01 ul li{
+.blok{
+	width:450px;
+	background-color:#a1f09c;
+	margin:10px;
+	margin-bottom:120px;
+	padding-bottom:50px;
+}
+.blok h5{
+	text-align:center;
+	padding:20px 0;
+}
+.blok h6{
+	margin-left:35px;
+	padding-bottom:10px;
+	font-size:18px;
+}
+.blok ul{
+	list-style-type:none;
+	margin-left:50px;
+	padding-bottom:30px;
+}
+.blok ul li{
+	
 	padding-left: 30px;
   background-image: url("../img/check-icon.png");
   background-position: 0 0;
@@ -228,18 +228,13 @@ span{
   background-repeat: no-repeat;
   margin-bottom:10px;
 }
-/*FORMA*/
-.container{
-	margin-top:50px;
-	width:20%;
-	padding:20px;
-	margin-bottom:60px;
-	left:260px;
-}
-.container h5{
+.blok i{
 	text-align:center;
-	margin-bottom:20px;	
+	margin-left:10px;
+	margin-right:10px;
+	color:#989e98;
 }
+/*FORMA*/
 .forma-edit{
 	width:300px;
 	outline:none;
