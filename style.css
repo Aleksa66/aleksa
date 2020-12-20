@@ -220,7 +220,6 @@ span{
 	padding-bottom:30px;
 }
 .blok ul li{
-	
 	padding-left: 30px;
   background-image: url("../img/check-icon.png");
   background-position: 0 0;
@@ -264,7 +263,7 @@ form .submit:hover,.footer-lista i:hover{
 }
 /*Kraj Regiona Forma*/
 /*Pocetak Regiona Footer*/
-.footer{
+#footer{
 	width:100%;
 	background-color:#989e98;
 	position:absolute;
@@ -272,26 +271,26 @@ form .submit:hover,.footer-lista i:hover{
 	display:flex;
 	justify-content: space-evenly;
 }
-.footer-lista ul li i{
+#footer ul li i{
 	padding:10px;
 	font-size:25px;
 	color:#a1f09c;
 }
-.footer-lista i:hover{
-	border-radius:70%;
+#footer i:hover{
+	color:#fff;
 }
-.footer-lista ul li{
+#footer ul li{
 	padding:10px;
 	list-style-type: none;
 }
-.footer-lista ul{
+#footer ul{
 	display:flex;
 	justify-content: center;
 }
-.copyright{
+#copyright{
 	right:90px;
 }
-.copyright p{
+#copyright p{
 	padding:20px;
 }
 /*Kraj Regiona Footer*/
@@ -344,6 +343,7 @@ form .submit:hover,.footer-lista i:hover{
 	top:130px;
 	background-color:rgba(0,0,0,0.4);
 	padding:80px 20px;
+	text-align: justify;
 	border-radius:10px 80px;	
 }
 #autor figure{
@@ -384,6 +384,8 @@ form .submit:hover,.footer-lista i:hover{
 		background-position: 0% 50%;
 	}
 }
+
+
 
 
 
