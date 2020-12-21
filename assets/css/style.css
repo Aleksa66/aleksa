@@ -8,8 +8,7 @@
 }
 body{
 	font-family: 'Poppins', sans-serif;
-	min-height:100vh;
-	padding-bottom:50px;
+	padding-bottom:70px;
 	animation: animacija-01 0.9s;
 }
 @keyframes animacija-01{
@@ -279,6 +278,7 @@ form .submit:hover,.footer-lista i:hover{
 #background-image01{
 	background-image:url("../img/nas-tim.jpg");
 	padding:80px 0;
+	margin-bottom:250px;
 }
 #transparentni-blok{
 	background-color:rgba(157, 163, 162,0.7);
@@ -327,8 +327,7 @@ form .submit:hover,.footer-lista i:hover{
 	width:250px;
 	border-radius:10%;
 }
-.animacija{
-	min-height:80vh;	
+.animacija{	
 	background-image: linear-gradient(125deg,#fff,#27ae60);
 	background-size:400% 400%;
 	animation: bganimation 5s infinite;
