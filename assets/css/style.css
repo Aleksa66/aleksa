@@ -27,6 +27,9 @@ body{
 	display:flex;
 	justify-content: center;
 }
+.d-flex{
+	display:flex;
+}
 .text-align{
 	text-align:center;
 }
@@ -161,8 +164,6 @@ mark{
 	box-shadow: 5px 10px #e6e4dc;
 }
 .kolona-flex{
-	display:flex;
-	justify-content: center;
 	left:-50px
 }
 .kolona-margin{
@@ -197,7 +198,6 @@ span{
 }
 #wrap{
 	width:1000px;
-	display:flex;
 	margin:0px auto;
 	position:relative;
 	left:30px;
@@ -270,7 +270,6 @@ form .submit:hover,.footer-lista i:hover{
 	background-color:#989e98;
 	position:absolute;
     bottom:0px;
-	display:flex;
 	justify-content: space-evenly;
 }
 #footer ul li i{
