@@ -33,8 +33,8 @@
 	<!--Kraj Regiona Header-->
 	<!--Pocetak Regiona Main -->
 		<main>
-				<section class="background-image bg-image-both">
-						<article class="text float-left position-relative centriranje">
+				<section id="background-image" class="bg-image-both">
+						<article id="text" class="position-relative">
 							<header>
 								<h1>Totalna bezbednost na jednom mestu...</h1>
 							</header>
@@ -45,16 +45,15 @@
 								<a href="index.html">Zaštiti se</a>
 							</div>
 						</article>
-						<div class="cleaner"></div>
-						<article class="okvir centriranje position-relative">
-								<div class="block01"></div>
+						<article id="okvir" class="centriranje position-relative">
+								<div id="block01"></div>
 						</article>
 					</section>
 			<div class="centriranje">
 					<div class="naslov text-align padding">
 						<h2>Zašto bas mi?</h2>
 					</div>
-						<div class="kolona-flex display-flex position-relative">
+						<div class="kolona-flex display-flex d-flex position-relative">
 							<div class="kolona text-align box-shadow bg-color padding" id="margin-left">
 								<div class="icon">
 									<i class="fas fa-bolt"></i>
@@ -93,7 +92,7 @@
 							</div> 
 						</div>
 					</div>
-			<div id="wrap" class="d-flex">
+			<div id="wrap" class="d-flex centriranje position-relative">
 					<div class="blok box-shadow">
 							<h5 class="font-size text-align"><i class="fas fa-arrow-down"></i>Ukoliko :<i class="fas fa-arrow-down"></i></h5>
 							<ul>
@@ -104,7 +103,7 @@
 							</ul>
 							<h6>Real System je pravo rešenje za vas</h6>
 							<h6><a name="kontakt.html">Kontakt telefon :</a></h6>
-							<span class="margin-left-25 font-size"><i class="fas fa-phone-volume"></i>011/2478903</span>
+							<span class="font-size"><i class="fas fa-phone-volume"></i>011/2478903</span>
 					</div>
 					<div class="blok box-shadow">
 						<form method="get" action="#" name="forma-kontakt">
@@ -112,19 +111,19 @@
 									<h5 class="text-align">Kontaktirajte nas <i class="far fa-envelope"></i></h5>
 								</div>
 								<div class="forma-klasa text-align">
-									<input type="text" name="tbtext" placeholder="Ime" class="forma-edit"/><br/>
-									<input type="text" name="tbtext" class="forma-edit" id="ttext" placeholder="Prezime">
+									<input type="text" name="tbtext" placeholder="Ime"/><br/>
+									<input type="text" name="tbtext" id="ttext" placeholder="Prezime">
 								</div>
 								<div class="forma-klasa text-align">
-									<input type="email" name="tbemail" class="forma-edit" id="tbemail" placeholder="E-mail Adresa"/>
+									<input type="email" name="tbemail" id="tbemail" placeholder="E-mail Adresa"/>
 								</div>
 								<div class="forma-klasa text-align">
-									<textarea name="poruka" id="txt-area" class="forma-edit" placeholder="Vaša poruka..."></textarea>
+									<textarea name="poruka" id="txt-area" placeholder="Vaša poruka..."></textarea>
 								</div>
 								<div class="forma-klasa text-align">
-									<input type="submit" name="tbsubmt" id="tbsubmit" class="forma-edit submit" value="Pošalji poruku"/>
+									<input type="submit" name="tbsubmt" id="tbsubmit" class="submit" value="Pošalji poruku"/>
 								</div>
-							</form>
+						</form>
 					</div>
 			</div>
 		</main>
@@ -132,7 +131,7 @@
 		<!--Pocetak Regiona Footer-->
 		<footer>
 			<div id="footer" class="d-flex">
-					<ul class="display-flex">
+					<ul class="display-flex d-flex">
 						<li>
 							<a href="https://www.instagram.com/?hl=sr" target="_blank"><i class="fab fa-instagram"></i></a>
 						</li>

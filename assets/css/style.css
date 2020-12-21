@@ -3,6 +3,8 @@
 	margin:0px;
 	padding:0px;
 	scroll-behavior:smooth;
+	text-decoration:none;
+	list-style-type:none;
 }
 body{
 	font-family: 'Poppins', sans-serif;
@@ -24,7 +26,6 @@ body{
 	position:relative;
 }
 .display-flex{
-	display:flex;
 	justify-content: center;
 }
 .d-flex{
@@ -47,11 +48,7 @@ header{
 .header-logo{
 	font-size:40px;
 }
-.header-logo a{
-	text-decoration:none;
-}
 .header-logo a:visited{
-	text-decoration:none;
 	color:#a1f09c
 }
 nav{
@@ -60,10 +57,8 @@ nav{
 nav ul li{
 	margin:60px;
 	display:inline;
-	list-style-type:none;
 }
 nav ul li a{
-	text-decoration:none;
 	color:#000;
 	font-size:25px;
 }
@@ -81,7 +76,7 @@ nav ul li a:hover{
 }
 /*Kraj regiona Header*/
 /*Pocetak Regiona Main*/
-.background-image{
+#background-image{
 	background-image:url("../img/background-image.jpg");
 	margin-bottom:100px;
 }
@@ -91,7 +86,7 @@ nav ul li a:hover{
 	background-repeat:no-repeat;
 	width:100%;
 }
-.text{
+#text{
 	padding:200px;
 	width:26%;
 	animation-name:animacija;
@@ -102,11 +97,11 @@ nav ul li a:hover{
   25%  {left:200px; top:0px;}
   100% { left:0px; top:0px;}
 }
-.text h1,p{
+#text h1,p{
 	padding:10px;
 	color:#fff
 }
-.text h1{
+#text h1{
 	font-size:22px;
 	font-weight:800;
 }
@@ -130,15 +125,12 @@ mark{
 	background-color:#fff;
 	transition:0.4s;
 }
-.zastiti-se a{
-	text-decoration:none;
-}
-.okvir{
+#okvir{
 	background-color:rgba(218, 232, 216,0.6);
 	width:60%;
 	top:60px;
 }
-.block01{
+#block01{
 	padding:60px;
 }
 .naslov h4{
@@ -189,24 +181,19 @@ mark{
 }
 span{
 	font-size:35px;
+	margin-left:25px;
 }
 .font-size{
 	font-size:20px;
 }
-.margin-left-25{
-	margin-left:25px;
-}
 #wrap{
 	width:1000px;
-	margin:0px auto;
-	position:relative;
 	left:30px;
 }
 .blok{
 	width:450px;
 	background-color:#a1f09c;
-	margin:10px;
-	margin-bottom:120px;
+	margin:0px 20px 120px 0px;
 	padding-bottom:50px;
 }
 .blok h5{
@@ -218,7 +205,6 @@ span{
 	font-size:18px;
 }
 .blok ul{
-	list-style-type:none;
 	margin-left:50px;
 	padding-bottom:30px;
 }
@@ -236,7 +222,7 @@ span{
 	color:#989e98;
 }
 /*FORMA*/
-.forma-edit{
+input[type="text"],input[type="email"],textarea,input[type="submit"]{
 	width:300px;
 	outline:none;
 	background:transparent;
@@ -282,7 +268,6 @@ form .submit:hover,.footer-lista i:hover{
 }
 #footer ul li{
 	padding:10px;
-	list-style-type: none;
 }
 #copyright{
 	right:90px;
@@ -290,41 +275,37 @@ form .submit:hover,.footer-lista i:hover{
 #copyright p{
 	padding:20px;
 }
-/*Kraj Regiona Footer*/
 /*Pocetak Stranice Nas Tim*/
-/*Pocetak Regiona Main*/
-.background-image01{
+#background-image01{
 	background-image:url("../img/nas-tim.jpg");
 	padding:80px 0;
 }
-.transparentni-blok{
+#transparentni-blok{
 	background-color:rgba(157, 163, 162,0.7);
 	top:40%;
 }
-.transparentni-blok article{
+#transparentni-blok article{
 	float:left;
 	margin-left:30px;
 }
-.transparentni-blok article:nth-last-of-type(4){
+#transparentni-blok article:nth-last-of-type(4){
 	margin-left:0px;
 }
-.transparentni-blok article figure img{
+#transparentni-blok article figure img{
 	height:350px;
 	border-radius:25%;
 	padding:0px 25px;
 	transition: transform 1s;
 }
-.transparentni-blok img:hover{
+#transparentni-blok img:hover{
 	transform: rotate(13deg);
 }
-.transparentni-blok article figure figcaption,h1{
+#transparentni-blok article figure figcaption,h1{
 	padding:10px 0;
 	font-size:20px;
 }
-/*Kraj Regiona Main*/
-/*Kraj stranice Nas-Tim*/
 /*Pocetak stranice o Autoru*/
-.sadrzaj{
+#sadrzaj{
 	width:40%;
 	top:130px;
 	background-color:rgba(0,0,0,0.4);
