@@ -325,13 +325,6 @@ form .submit:hover,.footer-lista i:hover{
 /*Kraj Regiona Main*/
 /*Kraj stranice Nas-Tim*/
 /*Pocetak stranice o Autoru*/
-.bg-cover{
-	background-image:url(../img/pozadina-autor.jpg);
-	width:100%;
-	height:800px;
-	background-repeat:no-repeat;
-	background-position:center;
-}
 .sadrzaj{
 	width:40%;
 	top:130px;
