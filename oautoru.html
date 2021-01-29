@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="sr-Latn-RS">
 	<head>
-		<title>REAL SYSTEM</title>
+		<title>Real System | O AUTORU</title>
 		<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 		<meta charset="utf-8" />
-		<meta name="keywords" content="antivirus,zaštita,real,system,autor" />
+		<meta name="keywords" content="antivirus, zaštita, real, system, autor" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="language" content="sr" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +14,7 @@
 		<link rel="shortcut icon" href="assets/img/icon.ico"/>
 		<script src="https://kit.fontawesome.com/215b067ed1.js" crossorigin="anonymous"></script>
 	</head>
-	<body class="animacija">
+	<body class="position-relative">
 	<!--Pocetak Regiona Header-->
 		<header>
 		<div class="centriranje">
@@ -23,7 +23,9 @@
 			<nav>
 				<ul>
 					<li><a href="index.html">Početna</a></li>
+					<li><a href="programi.html">Programi</a></li>
 					<li><a href="nastim.html">Naš tim</a></li>
+					<li><a href="kontakt.html">Kontakt</a></li>
 					<li><a href="oautoru.html">O autoru</a></li>
 				</ul>
 			</nav>
@@ -33,27 +35,28 @@
 	<!--Kraj Regiona Header-->
 	<!--Pocetak Regiona Main-->
 		<main>
-				<div id="sadrzaj" class="centriranje position-relative">
-					<section id="autor" class="display-flex d-flex">
-						<article id="slika-autor">
-							<figure class="text-align">
-								<img src="assets/img/o-autoru.jpg" alt="Autor">
-								<figcaption>Aleksa Jadranin 127/20</figcaption>
-							</figure>
-						</article>
-						<article id="o-autoru-text">
-							<h1>O Autoru...</h1>
-							<p>Zovem se Aleksa Jadranin. Rođen sam 2001. godine u Beogradu. Završio sam srednju Tehničku školu u Obrenovcu. Nisam se pronašao u toj struci pa sam po završetku srednje škole odlučio da nastavim školovanje na  Visokoj ICT školi. </p>
-							<h2>E-mail adresa :</h2> <p>aleksa.jadranin.127.20@ict.edu.rs</p>
-						</article>
-					</section>
-			</div>
+			<div id="zeleniii" class="position-relative bg-color"></div>
+				<div class="white-block box-shadow-2 border position-relative" id="autor-sirina">
+						<section id="autor" class="d-flex">
+							<aticle>
+									<figure class="text-align">
+										<img src="assets/img/o-autoru.jpg" alt="Autor" height="200px">
+										<figcaption>Aleksa Jadranin 127/20</figcaption>
+									</figure>
+							</aticle>
+							<article id="podaci">
+										<h1>O Autoru...</h1>
+										<p id="justify">Zovem se Aleksa Jadranin. Rođen sam 2001. godine u Beogradu. Završio sam srednju Tehničku školu u Obrenovcu. Nisam se pronašao u toj struci pa sam po završetku srednje škole odlučio da nastavim školovanje na  Visokoj ICT školi. </p>
+										<h2>E-mail adresa :</h2> <p>aleksa.jadranin.127.20@ict.edu.rs</p>
+							</article>
+						</section>
+					</div>
 		</main>
 	<!--Kraj Regiona Main-->
 	<!--Pocetak Regiona Footer -->
 		<footer>
-			<div id="footer" class="d-flex">
-					<ul class="display-flex d-flex">
+			<div id="footer" class="d-flex justify-space">
+					<ul class="d-flex">
 						<li>
 							<a href="https://www.instagram.com/?hl=sr" target="_blank"><i class="fab fa-instagram"></i></a>
 						</li>
@@ -80,5 +83,4 @@
 		</footer>
 		<!--Kraj Regiona Footer -->
 	</body>
-	
 	</html>
