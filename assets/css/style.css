@@ -374,6 +374,7 @@ box-shadow: 2px 2px 5px rgb(0 0 0 / 20%);
 	background-color: #a1f09c;
 	border-radius:5px;
 	margin:0px 2% 40px 0;
+	zoom:100%;
 }
 .kolona1:hover,#slike-nastim figure:hover{
 	transform:scale(1.05);
